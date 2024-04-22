@@ -71,7 +71,7 @@ body {
 .flex-container > div {
   width: 400px;
   margin: 10px;
-  text-align: center;
+  text-align: left;
   line-height: 25px;
 }
 
