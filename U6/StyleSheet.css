@@ -92,7 +92,7 @@ footer {
         border: 1px solid #ccc;
         border-radius: 5px;
         padding: 20px;
-        text-align: center;
+        text-align: left;
     }
     .davis-column img {
         max-width: 100%;
@@ -106,7 +106,7 @@ footer {
         border: 1px solid #ccc;
         border-radius: 5px;
         padding: 20px;
-        text-align: center;
+        text-align: left;
     }
     .chuck-column img {
         max-width: 100%;
@@ -120,7 +120,8 @@ footer {
         border: 1px solid #ccc;
         border-radius: 5px;
         padding: 20px;
-        text-align: center;
+        text-align: left;
+
     }
     .nigel-column img {
         max-width: 100%;
@@ -128,6 +129,24 @@ footer {
         border-radius: 5px;
         margin-bottom: 10px;
     }
+	
+	#davis-name {
+		flex: 1;
+        margin: 0 10px;
+        text-align: center;
+	}
+	
+	#chuck-name {
+		flex: 1;
+        margin: 0 10px;
+        text-align: center;
+	}
+	
+	#nigel-name {
+		flex: 1;
+        margin: 0 10px;
+        text-align: center;
+	}
 	
 .courses-container {
         display: flex;
